@@ -1,8 +1,27 @@
+/* Ejercicio 05: Comparador de años
+ * Este programa compara un año ingresado por el usuario con el año actual y 
+ * calcula la diferencia en años.
+ * 
+ * COMPARADOR DE AÑOS
+ * ¿En qué año estamos?: 2019
+ * Escriba un año cualquiera: 2024
+ * Para llegar al año 2020 faltan 5 años.
+ * 
+ * COMPARADOR DE AÑOS
+ * ¿En qué año estamos?: 2019
+ * Escriba un año cualquiera: 1997
+ * Desde el año 1997 han pasado 22 años.
+ * 
+ * COMPARADOR DE AÑOS
+ * ¿En qué año estamos?: 2019
+ * Escriba un año cualquiera: 2019
+ * ¡Son el mismo año!
+ */
+
 #include<iostream>
 using namespace std;
 
 int main() {
-    // Código para el ejercicio 5
     cout << "COMPARADOR DE AÑOS" << endl;
     int anioActual, anio;
     cout << "¿En qué año estamos? ";
